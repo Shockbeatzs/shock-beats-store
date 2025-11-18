@@ -1,0 +1,11 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#eee;margin:0}
+header{background:#000;padding:16px;text-align:center}
+.app{max-width:900px;margin:20px auto;padding:12px}
+input{display:block;width:100%;padding:8px;margin:8px 0;background:#141414;border:1px solid #333;color:#fff}
+button{padding:8px 12px;background:#e91e63;border:none;color:#fff;border-radius:6px;cursor:pointer}
+.beat{background:#111;padding:12px;border-radius:6px;margin:8px 0;border:1px solid #222}
+.top{display:flex;justify-content:flex-end}
+.auth{max-width:420px;margin:auto}
+.error{color:#f88}
+.switch{color:#aaa;cursor:pointer}
+footer{text-align:center;color:#666;margin-top:20px}
