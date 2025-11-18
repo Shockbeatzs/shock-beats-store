@@ -1,9 +1,9 @@
-# Dockerfile for backend
+# Dockerfile para backend Node.js
 FROM node:18-alpine
 WORKDIR /app
-COPY package.json package-lock.json* ./ || true
-COPY . .
+COPY package*.json ./
 RUN npm install --production
+COPY . .
 EXPOSE 4000
 ENV NODE_ENV=production
-CMD ["node","index.js"]
+CMD ["node", "index.js"]
